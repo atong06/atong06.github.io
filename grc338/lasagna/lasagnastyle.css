@@ -1,0 +1,83 @@
+/*CSS DOCUMENT*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap');
+
+header{
+    padding: 2em 2em 2em 2em;
+    text-align: center;
+}
+
+img {
+width: 100%;
+padding: 4em 0em 0em 0em; }
+
+div.container{
+    max-width: 80em;
+    margin: auto;   
+}
+
+div.maincontent{
+    background: rgb(245, 248, 250);
+    float: left;
+    min-width: 80em;
+}
+
+div.ingredients{
+    float: left;
+    padding: 3em 3em 3em 3em;
+    max-width: 34em;
+}
+
+div.directions{
+    float: left;
+    padding: 3em 3em 3em 3em;
+    max-width: 34em;    
+}
+
+footer {
+    float: none;
+    clear: both;
+    text-align: center;
+    padding: 2em; 
+}
+
+p{
+    padding: 8em 18em 8em 18em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400px;
+    font-size: 1em;    
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4em;
+    color: rgb(255, 215, 105);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    line-height: 0em;
+}
+
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    letter-spacing: .02em;
+    font-size: 1.3em;    
+}
+
+li{
+  font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: .02em;
+    line-height: 1.4em;
+}
+
+h6{
+    font-family: 'Josefin Sans', sans-serif;   
+}
+
