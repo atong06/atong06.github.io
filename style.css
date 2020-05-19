@@ -1,0 +1,89 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/umm6wqp.css");
+
+body{
+    max-width: 30em;
+}
+
+div.container{
+    max-width: 30em;
+    margin: auto; 
+}
+
+
+a:link {
+  color: rgb(82 106 130);
+  text-decoration: none; 
+  float: left;
+  margin: 0em 1.5em 2em 1.5em ;
+  
+  
+    
+}
+
+a:visited {
+  color: rgb(82 106 130);
+  
+}
+
+a:hover {
+  color: rgb(132 139 145);
+}
+
+
+h1 {
+      color: rgb(46, 49, 97);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-size:2em;
+    text-align: center;
+    
+   }
+
+h2 {
+    color: rgb(46, 49, 97);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-size:1.2em;
+    text-transform: uppercase;
+    padding: 3em 0em 1em 0em;
+    text-align: center;
+   }
+
+h3 {
+    color: rgb(46, 49, 97);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-size:1em;
+    text-align: center;
+   }
+
+h4 {
+      color: rgb(46, 49, 97);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-size:1.2em;
+    line-height: 0em;
+    padding: 2em 0em 0em 0em;
+   }
+
+p{
+    color: rgb(0 0 0);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    line-height: 1.2em;
+    padding: 0em 0em 0em 0em;
+}
+
+img {
+max-width: 30em;
+padding: 0em 0em 3em 0em; }
+
+
+li{
+  font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: .02em;
+    line-height: 1.4em;
+    list-style: none;
+}
