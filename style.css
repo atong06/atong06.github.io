@@ -11,14 +11,15 @@ div.container{
     margin: auto; 
 }
 
+.logo{
+  max-width: 24em; 
+}
 
 a:link {
   color: rgb(82 106 130);
   text-decoration: none; 
   float: left;
-  margin: 0em 1.5em 2em 1.5em ;
-  
-  
+  padding: 0em 3em 2em 3em ;
     
 }
 
@@ -78,7 +79,9 @@ p{
 
 img {
 max-width: 30em;
-padding: 0em 0em 3em 0em; }
+padding: 0em 0em 3em 0em;
+
+}
 
 
 li{
