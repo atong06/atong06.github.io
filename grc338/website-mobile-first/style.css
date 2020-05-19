@@ -3,12 +3,8 @@
 @import url("https://use.typekit.net/umm6wqp.css");
 
 body{
-    max-width: 30em;
-}
-
-div.container{
     max-width: 25em;
-    margin: auto; 
+    margin: auto;
 }
 
 .logo{
@@ -82,7 +78,7 @@ p{
 }
 
 img {
-max-width: 30em;
+max-width: 25em;
 padding: 0em 0em 3em 0em;
 
 }
@@ -94,3 +90,4 @@ li{
     padding: 0em 0em 0em 0em;
     
 }
+
