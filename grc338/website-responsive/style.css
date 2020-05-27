@@ -1,0 +1,220 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/umm6wqp.css");
+
+body{
+    margin: auto;
+}
+nav{
+    text-align: center;
+}
+
+.logo{
+  padding: 0em 0em 2em 0em;
+  max-width: 25em;
+  display: inline-block;
+  margin: auto;
+}
+
+nav ul li {
+  list-style-type: none;
+  display:inline-block;
+}
+
+.menubar{
+  padding: 0em 1em 2em 1em;
+  line-height: 4em;
+  font-size: 1.2em;
+}
+
+a:link {
+  font-family: brandon-grotesque, sans-serif;
+  color: rgb(82 106 130);
+  text-decoration: none;  
+}
+
+a:visited {
+  color: rgb(82 106 130);
+  
+}
+
+a:hover {
+  color: rgb(132 139 145);
+}
+
+
+h1 {
+    color: rgb(46, 49, 97);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-size:2.2em;
+    text-align: center;
+    padding: 0em 2em 0em 2em;
+    
+   }
+
+h2 {
+    color: rgb(46, 49, 97);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-size:1.4em;
+    text-transform: uppercase;
+    padding: 4em 0em 0em 0em;
+    text-align: center;
+   }
+
+h3 {
+    color: rgb(46, 49, 97);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-size:1.1em;
+    text-align: center;
+   }
+
+h4 {
+      color: rgb(46, 49, 97);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-size:1.3em;
+    line-height: 0em;
+    padding: 2em 0em 0em 0em;
+    text-align: center;
+   }
+
+p{
+    color: rgb(0 0 0);
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-size: 1.1em;
+    text-align: center;
+       
+}
+
+.filler1{
+    
+    padding: 7em 2em 7em 2em;
+    margin: 0em;
+    color: rgb(82 106 130);
+    background-color:rgb(228 232 230);
+    display: block;
+    letter-spacing: .03; 
+}
+
+.filler2{
+    
+    padding: 7em 2em 7em 2em;
+    margin: 0em;
+    color: rgb(82 106 130);
+    background-color:rgb(250 255 250);
+    display: block;
+    letter-spacing: .03;
+}
+
+img.introimage {
+width: 100%;
+display: block;
+
+}
+
+ul{
+    list-style: none;
+    line-height: 1.4em;
+    display: inline;
+    padding: inherit; 
+}
+
+@media only screen and (max-width: 40em){
+    
+     .filler1{
+        padding: 7em 2em 7em 2em;
+        margin: auto;
+    }
+    
+    .filler2{
+        padding: 7em 2em 7em 2em;
+        margin: auto;
+    }
+    
+    div.menuitems{
+    max-width: 30em;
+    margin: auto;
+    }
+    
+    .logo{
+    padding: 3% 20% 3% 20%;
+    max-width: 60%;
+    }
+    
+}
+
+@media only screen and (min-width: 40em){
+    
+    .filler1{
+        padding: 10em 2em 10em 2em;
+        margin: auto;
+        max-width: 50em;
+        font-size: 1.4em;
+    }
+    
+    .filler2{
+        padding: 10em 2em 10em 2em;
+        margin: auto;
+        max-width: 50em;
+        font-size: 1.4em;
+    }
+    
+    div.menuitems{
+        max-width: 34em;
+        margin: auto;
+    }
+    
+    .logo{
+    padding: 2.5% 20% 2.5% 20%;
+    max-width: 60%;
+    }
+    
+    .menubar{
+    padding: 0em 2.5em 2em 2.5em;
+    }
+    
+}
+
+
+@media only screen and (min-width: 70em){
+
+    img.introimage{
+        max-width: 70em;
+        margin: auto;
+    } 
+    
+    .filler1{
+        padding: 15em 3em 15em 3em;
+        margin: auto;
+        max-width: 44em;
+        font-size: 1.4em;
+    }
+    
+    .filler2{
+        padding: 15em 3em 15em 3em;
+        margin: auto;
+        max-width: 44em;
+        font-size: 1.4em;
+    }
+    
+    div.menuitems{
+    max-width: 38em;
+    margin: auto;
+    }
+    
+    .logo{
+    padding: 2% 25% 2% 25%;
+    max-width: 50%;
+    max-height: 10em;
+    }
+    
+    .menubar{
+    padding: 0em 5em 2em 5em;
+    }
+}
+
+
