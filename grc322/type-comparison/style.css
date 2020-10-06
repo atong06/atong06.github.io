@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap');
+
+h1, h2, h3, h4, p, ul, ol, li {margin: 0; padding:0; font-size: 1em; font-weight: normal;}
+
+
+header{
+    padding: 2em 0em 2em 0em;
+    max-width: 28em;
+    text-align: center;
+    margin: auto;
+}
+
+img {
+width: 100%;
+padding: 1em 0em 1em 0em; 
+margin: auto;
+}
+
+
+div{
+    max-width: 28em;
+    margin: auto;
+    padding: 8em, 20em, 8em, 20em;
+}
+
+
+body {
+background-color: rgb(224, 224, 223);
+}
+
+
+p{
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400px;
+    font-size: 1em; 
+    color: rgb(70, 37, 37);  
+    margin-bottom: 3em;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4em;
+    color: rgb(206, 168, 64);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+h2{
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    line-height: 1.4em;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 2em;
+    color: rgb(70, 37, 37);
+}
+
+h3{
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    letter-spacing: .02em;
+    font-size: 1.3em; 
+    line-height: 2em; 
+    margin-top: 2.5em; 
+    font-weight: 700;
+    color: rgb(70, 37, 37); 
+}
+
+
